@@ -11,7 +11,7 @@ package com.wipro.java.oops;
  * toString will convert the entire animal class with properties and behaviors
  * 
  */
-public class employee {
+public class Employee {
 
 	private int empId;// Employee ID
 	private String empName;//Employee Name
@@ -49,6 +49,11 @@ public class employee {
 	}
 	public void setSalary(float salary) {
 		Salary = salary;
+	}
+	@Override
+	public String toString() {
+		return "employee [empId=" + empId + ", empName=" + empName + ", empAge=" + empAge + ", empDesignation="
+				+ empDesignation + ", Salary=" + Salary + "]";
 	}
 	
 	

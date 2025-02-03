@@ -6,7 +6,7 @@ package com.wipro.java.oops;
 /**
  * 
  */
-public class flower {
+public class Flower {
 
 	//properties and behaviours
 	//name, color
@@ -16,7 +16,7 @@ public class flower {
 	String flowername;
 	String flowercolor;
 	
-	flower(String name, String color){
+	Flower(String name, String color){
 		this.flowername=name;
 		this.flowercolor=color;
 
@@ -27,8 +27,8 @@ public class flower {
 	}
 	
 	public static void main(String args[]) {
-		flower flowername1=new flower("Rose","Red");
-		flower flowername2=new flower("Sunflower", "Yellow");
+		Flower flowername1=new Flower("Rose","Red");
+		Flower flowername2=new Flower("Sunflower", "Yellow");
 		
 		flowername1.display();
 		flowername2.display();

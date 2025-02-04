@@ -8,10 +8,10 @@ package com.wipro.java.exception;
  */
 public class JavaExceptionExample {
 		public static void main(String[] args) {
-			int a=10,b=0;
+			int num1=10,num2=0;
 			//Handling Arithmetic Exceptions
 			try {
-				int c=a/b;
+				int c=num1/num2;
 			} catch (Exception e) {
 				// TODO: handle exception
 				e.printStackTrace();

@@ -34,6 +34,12 @@ class Movie implements Comparable<Movie> {
 		return "Movie [name=" + name + ", rating=" + rating + ", year=" + year + "]";
 	}
 
+	@Override
+	public int compareTo(Movie o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	
 
 }
